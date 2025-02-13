@@ -1,25 +1,23 @@
 {
-      "name": "my-node-app",
-      "version": "1.0.0",
-      "description": "A simple Node.js application",
-      "main": "index.js",
-      "scripts": {
-            "start": "node index.js",
-            "build": "echo 'Building project...' && mkdir -p dist && cp index.js dist/",
-            "test": "echo 'Running tests...' && exit 0"
-      },
-      "dependencies": {
-            "express": "^4.18.2",
-            "glob": "^11.0.1",
-            "inflight": "^1.0.6"
-      },
-      "devDependencies": {
-            "jest": "^29.7.0"
-      },
-      "engines": {
-            "node": ">=18.0.0"
-      },
-      "keywords": [],
-      "author": "Your Name",
-      "license": "MIT"
+  "name": "made-in-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryoxin1/Made-in-me.git"
+  },
+  "keywords": [
+    "124778"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryoxin1/Made-in-me/issues"
+  },
+  "homepage": "https://github.com/Ryoxin1/Made-in-me#readme"
 }

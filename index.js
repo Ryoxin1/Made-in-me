@@ -1,3 +1,10 @@
-module.exports = (req, res) => {
-      res.status(200).json({ message: "Hello from Vercel Cloud!" });
-      };
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Hello from Vercel!');
+    });
+
+
+
+
